@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+*{
+ box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  
+  font-family: 'Playwrite NZ Basic', cursive;
+}
+body,html{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(113, 105, 105);
+}
+.btn{
+  background-color: blue;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.head{
+  padding: 10px 20px;
+  margin: 10px;
+margin-top: 10px;
+  
+}
+.head button {
+  border-radius: 5px;
+  color: rgb(142, 103, 45);
+  border: none;
+ padding: 5px;
+}
