@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica', sans-serif;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color:white
+}
+input,button{
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  margin: 10px;
+}
+#main{
+  margin: 20px 10px;
+  background-color: olivedrab;
+ display: inline-block;
+ border-radius: 10px;
+}
