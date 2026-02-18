@@ -1,0 +1,27 @@
+@import "tailwindcss";
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+*{
+  box-sizing: border-box;
+
+}
+.nav{
+  display: flex;
+color: aliceblue;
+  background-color: rgb(3, 131, 135);
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+}
+.nav2{
+  display: flex;
+  gap: 30px;
+  color: aliceblue;
+  font-size: large;
+  font-weight: 500;
+  font-weight: 900;
+}
