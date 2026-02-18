@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
+import Course from '../pages/Course'
 const Navbar = () => {
   return (
     <div 
@@ -19,9 +20,11 @@ const Navbar = () => {
 </h2>
 
       <div className="flex gap-10">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/product">Product</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/product">Product</Link>
+        <Link to='/Course'>Course Details</Link>
+        
       </div>
     </div>
   )
